@@ -1,0 +1,12 @@
+\begin{tikzpicture}
+    %Dibujamos ejes
+    \draw[thick,->] (0,0) -- (10,0) node[anchor=north west] {$\gamma_1$};
+    \draw[thick,->] (0,0) -- (0,6) node[anchor=south east] {$cdf(\gamma_1)$};
+
+	\draw (0,0) -- (7,3);
+	\draw (7,3) -- (9,3);
+
+	\draw (7 cm,1pt) -- (7 cm,-1pt) node[anchor=north] {7};
+
+
+\end{tikzpicture}

@@ -1,0 +1,26 @@
+  \begin{tikzpicture}
+
+    %Dibujamos ejes
+    \draw[thick,->] (0,0) -- (14,0) node[anchor=north west] {$\gamma$};
+    \draw[thick,->] (0,0) -- (0,4) node[anchor=south east] {$pdf(\gamma)$};
+
+    %Deltas
+	%marcas eje x
+	\draw (4 cm,1pt) -- (4 cm,-1pt) node[anchor=north] {4};
+	\draw (8 cm,1pt) -- (8 cm,-1pt) node[anchor=north] {8};
+	\draw (12 cm,1pt) -- (12 cm,-1pt) node[anchor=north] {12};
+
+	
+	%marcas eje y
+	\draw (1pt, 1cm) -- (-1pt,1 cm) node[anchor=east] {0.1};
+	\draw (1pt, 2cm) -- (-1pt,2 cm) node[anchor=east] {0.4};
+	\draw(1pt,2.5cm)--(-1pt,2.5cm)node[anchor=east]{0.5};
+	
+	% Primera delta
+	\draw[thick,->] (4,0) -- (4,1);
+	%Segunda delta
+	\draw[thick,->] (8,0) -- (8,2);
+	%Tercera delta
+	\draw [thick,->](12,0) -- (12,2.5);
+
+\end{tikzpicture}

@@ -1,0 +1,18 @@
+\begin{tikzpicture}
+    %Dibujamos ejes
+    \draw[thick,->] (0,0) -- (10,0) node[anchor=north west] {$\gamma_2$};
+    \draw[thick,->] (0,0) -- (0,4) node[anchor=south east] {$cdf(\gamma_2)$};
+
+	\draw (2,0) -- (2,0.5);
+	\draw (2,0.5) -- (6,1.5);
+	\draw (6,1.5) -- (7,2.5);
+	\draw (7,2.5) -- (9,2.5);
+
+	\draw (2 cm,1pt) -- (2 cm,-1pt) node[anchor=north] {2};
+	\draw (6 cm,1pt) -- (6 cm,-1pt) node[anchor=north] {6};
+	\draw (1 pt ,1cm) -- (- 1 pt,1cm) node[anchor=east] {2/21};	
+	\draw (1 pt ,2cm) -- (- 1 pt,2cm) node[anchor=east] {6/7};
+	
+
+
+\end{tikzpicture}
